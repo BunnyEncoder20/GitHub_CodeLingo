@@ -13,5 +13,5 @@ List of packages installed on the **client side**
 6. tailwindcss 
 
 **Plan to install :**
-1. Zod (validation)
-2. Auth js (authentication)
+1. ShadCN / UI 
+2. Zod (validation)

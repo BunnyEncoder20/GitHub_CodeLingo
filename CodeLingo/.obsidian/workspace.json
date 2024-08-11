@@ -135,17 +135,17 @@
                   "hideUnresolved": false,
                   "collapse-color-groups": true,
                   "colorGroups": [],
-                  "collapse-display": false,
+                  "collapse-display": true,
                   "showArrow": false,
                   "textFadeMultiplier": 0,
                   "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 2.02027027027027,
+                  "lineSizeMultiplier": 1,
                   "collapse-forces": false,
                   "centerStrength": 0.518713248970312,
                   "repelStrength": 10,
                   "linkStrength": 1,
-                  "linkDistance": 64,
-                  "scale": 2.4401481815699144,
+                  "linkDistance": 250,
+                  "scale": 1.2414543899483095,
                   "close": true
                 }
               }
@@ -234,8 +234,8 @@
   "active": "067ef82269605bef",
   "lastOpenFiles": [
     "Server.md",
-    "CodeLingo.md",
     "Client.md",
+    "CodeLingo.md",
     "Welcome.md",
     "README.md",
     "Most Important Interview Core Questions.md",
