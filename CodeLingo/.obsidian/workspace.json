@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b44f85b9fe797651",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Client.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "067ef82269605bef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CodeLingo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -115,11 +140,11 @@
                   "textFadeMultiplier": 0,
                   "nodeSizeMultiplier": 1,
                   "lineSizeMultiplier": 2.02027027027027,
-                  "collapse-forces": true,
+                  "collapse-forces": false,
                   "centerStrength": 0.518713248970312,
                   "repelStrength": 10,
                   "linkStrength": 1,
-                  "linkDistance": 250,
+                  "linkDistance": 64,
                   "scale": 2.4401481815699144,
                   "close": true
                 }
@@ -206,9 +231,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "83338db4ed10410b",
+  "active": "067ef82269605bef",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Server.md",
+    "CodeLingo.md",
+    "Client.md",
     "Welcome.md",
     "README.md",
     "Most Important Interview Core Questions.md",
@@ -245,8 +272,6 @@
     "Excalidraw/levels_of_data_abstraction.excalidraw.md",
     "DBMS/04 DBMS Architectures/1-Tier Architecture.md",
     "DBMS/04 DBMS Architectures/2-Tier Architecture.md",
-    "DBMS/04 DBMS Architectures/Database Architectures.md",
-    "DBMS/04 DBMS Architectures/3-Tier Architecture.md",
     "Excalidraw/TimeLine 3 months.excalidraw",
     "DBMS/04 DBMS Architectures",
     "Excalidraw",
