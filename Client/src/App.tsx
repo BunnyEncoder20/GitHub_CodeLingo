@@ -1,12 +1,18 @@
-import './App.css'
-import { Button } from "@/components/ui/button";
+import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Layout from './components/Layout.component';
+import Landing from './pages/Landing.page';
 
-function App() {
 
+const App = () => {
   return (
-    <>
-      <Button>Hellow ShadCN/UI Button</Button>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Layout />}>
+          <Route index element={<Landing />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
