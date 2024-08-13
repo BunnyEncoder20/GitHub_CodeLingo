@@ -1,11 +1,11 @@
-# Packages Installed
+# Packages Installed 📦
 
 List of packages installed on the **client side** 
 
-## Client 
+## Client 🖥️
 
 **Installed :** 
-1.  redux toolkit
+1. redux toolkit
 2. react-redux 
 3. axios
 4. react-router-dom

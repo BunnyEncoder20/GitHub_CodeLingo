@@ -1,4 +1,4 @@
-# Packages Installed
+# Packages Installed 📦
 
 List of packages installed on the **server side**. 
 
