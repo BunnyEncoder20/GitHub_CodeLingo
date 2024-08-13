@@ -1,13 +1,18 @@
-import './App.css'
+import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Layout from './components/Layout.component';
+import Landing from './pages/Landing.page';
 
-function App() {
 
+const App = () => {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline bg-blue-600 p-5 rounded">
-        Hello world!
-      </h1>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Layout />}>
+          <Route index element={<Landing />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
