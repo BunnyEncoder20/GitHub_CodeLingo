@@ -24,10 +24,32 @@ is this OK (yes)
 ```bash
 npm init -y
 ```
+- also setup typescript to work with your node application : 
+```shell
+npm install -D typescript ts-node @types/node @types/express @types/mongoose @types/cors nodemon
+```
+- Make a `./tsconfig.json` and add the following code : 
+```json
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "rootDir": "./src"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
 
-2. Setup **GIT** if not already done
-3. Setup a `.gitignore` 
-4. Set **import** type as **module** in the `package.json` file.
+```
+
+1. Setup **GIT** if not already done
+2. Setup a `.gitignore` 
+3. Set **import** type as **module** in the `package.json` file.
 ```javascript
 /* 
 ./package.json 
@@ -62,7 +84,7 @@ npm i cors dotenv express zod mongoose
 - **cors** : for making cross site access possible 
 - **dotenv** : for sensitive environment variables 
 - **express** : for restful API calls 
-- **zod** : for input validation 
+- **zod** : for validation 
 - **mongoose** : for communicating with MongoDB
 
 8. We could also install **Prettier** for uniform formatting of the code which will be written all over the project.
@@ -103,9 +125,28 @@ touch .prettierrc .prettierignore
 
 - You can use the following command to print out the entire folder structure for the production backend folder : 
 ```bash 
-sudo apt install tree
-tree | less
-tree -d 
+myapp-backend
+├── src
+│   ├── config
+│   │   └── db.ts
+│   ├── controllers
+│   │   └── userController.ts
+│   ├── middleware
+│   │   ├── errorHandler.ts
+│   │   └── validateRequest.ts
+│   ├── models
+│   │   └── userModel.ts
+│   ├── routes
+│   │   └── userRoutes.ts
+│   ├── utils
+│   │   └── ApiResponse.ts
+│   ├── app.ts
+│   └── server.ts
+├── .env
+├── .gitignore
+├── package.json
+├── tsconfig.json
+└── nodemon.json
 ```
 
 
@@ -136,3 +177,32 @@ mkdir controllers  db
 4. **models** : where all the schema data models of our data are written
 5. **routes** : where all the routes redirects are written
 6. **utils** : where all the utility functions which will be used by many functions (like email function, efficient sorting/searching algorithm) are kept here.
+
+
+---
+
+
+# Frontend
+
+## Folder Structure 
+
+```shell
+myapp-frontend
+├── public
+│   └── index.html
+├── src
+│   ├── api
+│   │   └── userApi.ts
+│   ├── components
+│   │   └── UserList.tsx
+│   ├── pages
+│   │   └── Home.tsx
+│   ├── App.tsx
+│   ├── index.tsx
+│   └── react-app-env.d.ts
+├── .gitignore
+├── package.json
+├── tsconfig.json
+├── yarn.lock
+└── README.md
+```
