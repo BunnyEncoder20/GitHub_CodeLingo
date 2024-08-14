@@ -37,14 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CodeLingo.md",
+                "file": "Server.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "62c496b9ef4862f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Production App Setup.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -63,7 +75,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CodeLingo.md"
+                "file": "Production App Setup.md"
               }
             }
           },
@@ -122,7 +134,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "CodeLingo.md",
+                "file": "Production App Setup.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -157,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CodeLingo.md",
+                "file": "Production App Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +181,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CodeLingo.md",
+                "file": "Production App Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,8 +243,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "067ef82269605bef",
+  "active": "62c496b9ef4862f9",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Production App Setup.md",
     "Server.md",
     "CodeLingo.md",
     "Client.md",
@@ -270,8 +284,6 @@
     "DBMS/05 Data Models and It's Types/Entity-Relationship Model.md",
     "DBMS/05 Data Models and It's Types",
     "Excalidraw/levels_of_data_abstraction.excalidraw.md",
-    "DBMS/04 DBMS Architectures/1-Tier Architecture.md",
-    "DBMS/04 DBMS Architectures/2-Tier Architecture.md",
     "Excalidraw/TimeLine 3 months.excalidraw",
     "DBMS/04 DBMS Architectures",
     "Excalidraw",
