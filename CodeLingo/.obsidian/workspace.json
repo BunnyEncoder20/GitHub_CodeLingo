@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CodeLingo.md",
+                "file": "Server.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -75,7 +74,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Production App Setup.md"
+                "file": "Server.md"
               }
             }
           },
@@ -134,7 +133,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Production App Setup.md",
+                "file": "Server.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -169,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Production App Setup.md",
+                "file": "Server.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Production App Setup.md",
+                "file": "Server.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,13 +242,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "62c496b9ef4862f9",
+  "active": "83338db4ed10410b",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Production App Setup.md",
-    "Server.md",
     "CodeLingo.md",
     "Client.md",
+    "Server.md",
+    "Production App Setup.md",
+    "Untitled.md",
     "Welcome.md",
     "README.md",
     "Most Important Interview Core Questions.md",

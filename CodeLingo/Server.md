@@ -12,3 +12,4 @@ List of packages installed on the **server side**.
 **Plan to Install :**
 1. Zod (validation)
 2. Auth js (authentication)
+
