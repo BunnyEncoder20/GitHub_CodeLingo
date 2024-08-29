@@ -13,7 +13,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CodeLingo.md",
+                "file": "Server.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b44f85b9fe797651",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Client.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "067ef82269605bef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Server.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "62c496b9ef4862f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Production App Setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +74,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CodeLingo.md"
+                "file": "Server.md"
               }
             }
           },
@@ -97,7 +133,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "CodeLingo.md",
+                "file": "Server.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -132,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CodeLingo.md",
+                "file": "Server.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CodeLingo.md",
+                "file": "Server.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,13 +242,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "62c496b9ef4862f9",
+  "active": "83338db4ed10410b",
   "lastOpenFiles": [
-    "Production App Setup.md",
     "CodeLingo.md",
     "Untitled.md",
     "Server.md",
     "Client.md",
+    "Server.md",
+    "Production App Setup.md",
+    "Untitled.md",
     "Welcome.md",
     "README.md",
     "Most Important Interview Core Questions.md",
