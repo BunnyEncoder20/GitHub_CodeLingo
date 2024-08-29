@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "83338db4ed10410b",
+            "id": "62c496b9ef4862f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,45 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "b44f85b9fe797651",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Client.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "067ef82269605bef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Server.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "62c496b9ef4862f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Production App Setup.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -75,7 +38,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Production App Setup.md"
+                "file": "CodeLingo.md"
               }
             }
           },
@@ -134,7 +97,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Production App Setup.md",
+                "file": "CodeLingo.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -169,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Production App Setup.md",
+                "file": "CodeLingo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Production App Setup.md",
+                "file": "CodeLingo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -245,10 +208,10 @@
   },
   "active": "62c496b9ef4862f9",
   "lastOpenFiles": [
-    "Untitled.md",
     "Production App Setup.md",
-    "Server.md",
     "CodeLingo.md",
+    "Untitled.md",
+    "Server.md",
     "Client.md",
     "Welcome.md",
     "README.md",

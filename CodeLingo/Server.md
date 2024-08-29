@@ -8,7 +8,7 @@ List of packages installed on the **server side**.
 3. dotenv
 4. express
 5. mongoose
+6. Zod (validation)
 
-**Plan to Install :**
-1. Zod (validation)
-2. Auth js (authentication)
+### Doubtful
+1. Auth js (authentication)
